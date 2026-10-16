@@ -1,0 +1,39 @@
+{
+  "name": "chord-dca-bot",
+  "version": "0.1.0",
+  "description": "Dollar-cost averages into a token list, buying only below the 24h VWAP. Tokenized stocks on Robinhood by default. Paper by default.",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "loop": "node index.js --loop"
+  },
+  "engines": {
+    "node": ">=20.12"
+  },
+  "keywords": [
+    "ai-agent",
+    "trading-bot",
+    "defi",
+    "mcp",
+    "chord",
+    "dca",
+    "tokenized-stocks",
+    "robinhood",
+    "base",
+    "arbitrum",
+    "ethereum",
+    "bnb-chain",
+    "avalanche",
+    "monad"
+  ],
+  "homepage": "https://github.com/tuantqse90/chord-dca-bot#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tuantqse90/chord-dca-bot.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "viem": "^2.57.7"
+  }
+}
